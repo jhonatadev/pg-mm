@@ -1,0 +1,510 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Lato";
+}
+
+
+.center{
+	max-width: 1100px;
+	margin: 0 auto;
+	padding:0 2%;
+}
+
+.center .logo {
+	width: 100%;
+	max-width: 100px;
+}
+
+.clear{clear: both;}
+
+
+/* .modulos-descricao{
+	
+} */
+
+.modulos-descricao img{
+	max-width: 300px;
+}
+
+.modulos-descricao p{
+	font-weight: bold;
+	font-size: 17px;
+	margin:12px 20px;
+	text-align: left;
+	color: #505050;
+
+}
+.modulos-descricao i{
+	color: #4762FA;
+	font-size: 23px;
+}
+header{
+	padding: 8px 0;
+	text-align: center;
+	background: #aa77ff;
+	transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+header:hover{
+	background: #000000;
+	
+}
+
+header img{max-width: 100%;}
+
+.titlelogo {
+	color: #FFFFFF;
+	font-family: "Montserrat", Sans-serif;
+	font-size: 20px;
+	font-weight: 800;
+	font-style: italic;
+	letter-spacing: 3.5px;
+	text-align: center;
+}
+
+section.main{
+	text-align: center;
+	background: #f7f7f7;
+	padding: 30px 0;
+}
+
+.chamada-main{
+	color: #4a4a4a;
+	text-align: center;
+	display: inline-block;
+	font-size: 32px;
+	max-width: 800px;
+}
+
+section.main h4{color: #4a4a4a;font-weight: normal;}
+
+.iframe{
+	width: 100%;
+  margin-top: 30px;
+  padding-top: 60%;
+  position: relative;
+  background: black;
+  border: 3px solid #f28a00;
+  border-radius: 30px;
+}
+
+.iframe iframe{
+	border: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 30px;
+}
+
+.iframe iframe{
+	border: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	border-radius: 30px;
+}
+
+.preco a{
+	max-width: 50%;
+	padding: 14px;
+	display: block;
+	margin: 0 auto;
+	background: #4dd544;
+	color: white;
+	text-decoration: none;
+	font-size: 26px;
+	font-weight: bold;
+	border-radius: 40px;
+	box-shadow: 0px 0px 11px 2px rgba(255, 59, 0, 0.5);
+}
+
+.preco a:hover{
+	background: #3fb737;
+}
+
+section.quem-sou{
+	padding: 30px 0;
+}
+
+.quem-sou img{
+	float: left;
+	width: 40%;
+}
+
+.quem-sou .sobre{
+	float: left;
+	width: 60%;
+	padding: 0 30px;
+}
+
+.sobre h2{
+	font-size: 24px;
+	color: #4a4a4a;
+}
+
+.sobre p{
+	font-size: 18px;
+	margin-bottom:10px;
+	color: #838383;
+}
+
+section.modulos{
+	padding: 30px 0;
+	 background-color: #f7f7f7;
+}
+.chamada-modulos{
+	text-align: center;
+	color: #4a4a4a;
+}
+
+.mockup-modulos{
+	margin:10px 0;
+	text-align: center;
+}
+
+.mockup-modulos img{
+	max-width: 100%;
+}
+
+.descricao-modulos{
+	border: 2px dashed #ccc;
+	padding: 20px 16px 16px 16px;
+	margin-top:10px;
+}
+
+.descricao-modulos p{
+	margin-bottom: 15px;
+	float: left;
+	width: 50%;
+	padding: 0 10px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #4a4a4a;
+}
+.descricao-modulos h2{
+	margin-bottom: 10px;
+	padding: 0 10px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #4a4a4a;
+}
+.descricao-modulos p:nth-of-type(2n + 1)
+{
+	clear: both;
+}
+.descricao-modulos i{
+	color: #4762fa;
+	font-size: 16px;
+}
+
+section.depoimentos{
+	padding: 30px 0;
+}
+
+.depoimentos-chamada{
+	text-align: center;
+	color: #4a4a4a;
+}
+
+.depoimentos-chamada h2{
+	font-size: 23px;
+	max-width: 600px;
+	display: inline-block;
+}
+.depoimentos-chamada h2 > b{
+	color: #f28a00;
+}
+
+.img-depoimento{
+	text-align: center;
+}
+.img-depoimento img.desktop{
+	max-width: 800px;
+	width: 100%;
+	display: inline-block;
+}
+
+img.mobile{display: none;max-width: 100%;}
+
+/*  --------------------  */
+
+
+.img-depoimento{
+  flex-direction:row;
+}
+.img-depoimento *{
+  margin:0 1%;
+  width: 100%;  
+}
+
+.img-video{
+	display:flex;
+  align-content:center;
+  align-items:center;
+}
+
+@media screen and (max-width: 980px) {
+	.img-video{
+		flex-direction: column;
+	}
+	.img-video div {
+		width: 100%;
+		max-width: 500px;
+	}
+	.img-depoimento *{
+  	margin: 3px 0; 
+	}
+}
+
+/*  --------------------  */
+
+.chamada-beneficios{
+	color: #4a4a4a;
+	text-align: center;
+	margin-top: 25px;
+}
+.chamada-beneficios h2{
+	font-size: 23px;
+}
+.chamada-beneficios h2 > b{
+	color: #1b2eaa;
+}
+.box-beneficios{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box-beneficios-single{
+	width: 33.3%;
+	padding: 15px 10px;
+}
+
+.box-beneficios-wraper{
+		padding: 15px 20px;
+		border-radius: 10px;
+    box-shadow: 0 9px 11px 0 rgba(0, 0, 0, 0.04);
+    border: 1px solid #e1e1e1;
+    height: 100%;
+}
+
+.box-beneficios-single h2{
+	margin:8px 0;
+	  font-size: 18px;
+	  color: #4a4a4a;
+}
+.box-beneficios-single h2 > b{
+	color: #1b2eaa;
+}
+
+.garantia-beneficios{
+width: 100%;
+margin: 0 auto;
+max-width: 800px;
+padding: 34px;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+}
+.garantia-beneficios img{
+	float: left;
+	width: 30%;
+	max-width: 184px;
+}
+
+.garantia-beneficios .chamada-garantia-beneficios{
+	float: left;
+	width: 70%;
+	color: #4a4a4a;
+
+	padding: 20px 10px 10px 70px;
+}
+
+section.bonus{
+	padding: 30px 0;
+	background: #f7f7f7;
+}
+.flex-bonus{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.flex-bonus-single{
+	width: 50%;
+	padding: 0 30px;
+	margin-bottom: 20px;
+}
+.flex-bonus-wraper{
+	text-align: center;
+	height: 100%;
+	border-radius: 10px;
+	border: 1px solid #e1e1e1;
+	padding: 10px;
+}
+.flex-bonus-wraper img{
+	width: 100%
+}
+.flex-bonus-wraper h2{
+	margin:8px 0;
+	color: #4a4a4a;
+	font-size: 21px;
+}
+.flex-bonus-wraper h2 > b{
+	color: #f28a00;
+}
+
+.box-video-demo{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+@media screen and (max-width: 768px){
+	.box-video-demo {
+		position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+	}
+
+}
+
+section.faq{
+	padding: 30px 0;
+	background: white;
+}
+
+.faq > .center > h2{
+	text-align: center;
+	color: #4a4a4a;
+	font-size: 23px;
+}
+
+.faq-box{
+	margin:25px 0;
+}
+
+.faq-box-single{
+	margin:15px 0;
+	border-top: 2px dotted #e1e1e1;
+	padding: 15px 0;
+}
+
+.faq-box-single h3{
+	color: #4a4a4a;
+}
+.faq-box-single p{color: #8b8b8b;margin-top:8px;font-size: 17px;}
+.chamada-final{
+	margin-top: 15px;
+	text-align: center;
+}
+.chamada-final h2{
+	display: inline-block;
+	max-width: 800px;
+	text-align: center;
+	font-size: 32px;
+	color: #4a4a4a;
+}
+
+.chamada-final p{
+	margin-top:10px;
+	color: #4a4a4a;
+	font-size: 17px;
+	font-weight: bold;
+}
+.chamada-final p > b{
+	color: #1b2eaa;
+}
+@media screen and (max-width: 768px){
+	.flex-bonus-single{
+	width: 100%;
+	padding: 0 30px;
+	margin-bottom: 20px;
+}
+	.garantia-beneficios{
+width: 100%;
+margin: 0 auto;
+max-width: 800px;
+text-align: center;
+padding: 34px;
+  border-radius: 10px;
+  background-color: #f7f7f7;
+}
+.garantia-beneficios img{
+	float: none;
+	display: block;
+	margin:10px auto;
+	width: 100%;
+	max-width: 184px;
+}
+
+.garantia-beneficios .chamada-garantia-beneficios{
+	float: none;
+	width: 100%;
+	color: #4a4a4a;
+	text-align: center;
+	padding: 20px 10px 10px 10px;
+}
+	.box-beneficios-single{
+	width: 100%;
+	text-align: center;
+	padding: 15px 10px;
+}
+	.img-depoimento img.desktop{
+		display: none;
+	}
+	img.mobile{
+		width: 100%;
+		display: inline-block;
+	}
+	.descricao-modulos p{
+		width: 100%;
+	}
+	.quem-sou img{
+			float: none;
+			width: 100%;
+			display: block;
+			margin: 0 auto;
+			max-width: 500px;
+	}
+
+	.quem-sou .sobre{
+		margin-top:15px;
+		float: none;
+		width: 100%;
+		padding: 0 30px;
+	}
+}
+
+@media screen and (max-width: 580px){
+	.preco a{
+    max-width: 93%;
+    padding: 12px;
+    display: block;
+    margin: 0 auto;
+    background: #4dd544;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 40px;
+    box-shadow: 0px 0px 11px 2px rgba(255, 59, 0, 0.5);
+	}
+
+}
+
+footer{
+	margin-top: 20px;
+	background: #000000;
+	padding: 10px 0;
+	color: white;
+	text-align: center;
+}
+
+footer p{
+	color: white;
+}

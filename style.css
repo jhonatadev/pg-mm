@@ -400,22 +400,37 @@ section.faq{
 }
 .faq-box-single p{color: #8b8b8b;margin-top:8px;font-size: 17px;}
 .chamada-final{
-	margin-top: 15px;
+	margin-top: 22px;
 	text-align: center;
+	padding: 20px;	
 }
 .chamada-final h2{
 	display: inline-block;
 	max-width: 800px;
 	text-align: center;
-	font-size: 32px;
-	color: #4a4a4a;
+	font-size: 30px;
+	color: #ffffff;
+	padding: 4px;
+}
+
+.chamada-final h3{
+	display: inline-block;
+	max-width: 800px;
+	text-align: center;
+	font-size: 28px;
+	color: #ffffff;
+	padding: 4px;
 }
 
 .chamada-final p{
-	margin-top:10px;
-	color: #4a4a4a;
-	font-size: 17px;
+	margin: 20px 0 20px 0;
+	color: #c5c2c2;
+	font-size: 18px;
 	font-weight: bold;
+}
+
+.chamada-final h4{
+	color: #7d7a7a;
 }
 .chamada-final p > b{
 	color: #1b2eaa;
@@ -499,7 +514,6 @@ padding: 34px;
 }
 
 footer{
-	margin-top: 20px;
 	background: #000000;
 	padding: 10px 0;
 	color: white;

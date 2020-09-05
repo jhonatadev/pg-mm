@@ -135,6 +135,7 @@ section.quem-sou{
 .quem-sou img{
 	float: left;
 	width: 40%;
+	border-radius: 50%;
 }
 
 .quem-sou .sobre{

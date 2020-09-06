@@ -78,6 +78,16 @@ section.main{
 	max-width: 800px;
 }
 
+@media screen and (max-width: 580px){
+	.chamada-main{
+		color: #4a4a4a;
+		text-align: center;
+		display: inline-block;
+		font-size: 28px;
+		max-width: 800px;
+	}
+}
+
 section.main h4{color: #4a4a4a;font-weight: normal;}
 
 .iframe{

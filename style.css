@@ -313,12 +313,11 @@ img.mobile{display: none;max-width: 100%;}
 }
 
 .garantia-beneficios{
-width: 100%;
-margin: 0 auto;
-max-width: 800px;
-padding: 34px;
-  border-radius: 10px;
-  background-color: #f7f7f7;
+	width: 100%;
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 34px;
+	border-radius: 10px;
 }
 .garantia-beneficios img{
 	float: left;

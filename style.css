@@ -119,6 +119,15 @@ section.main h4{color: #4a4a4a;font-weight: normal;}
 	border-radius: 30px;
 }
 
+.img-garantia {
+	float: none;
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+	max-width: 500px;
+	padding: 15px 0 25px 0;	
+}
+
 .preco a{
 	max-width: 50%;
 	padding: 14px;

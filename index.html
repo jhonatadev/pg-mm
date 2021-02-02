@@ -2,8 +2,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	FB.AppEvents.logPageView();
-
 	<title>Mentoria Milionária &#8211; Aprenda sem enrolação a viver do marketing digital!</title>
 	<meta charset="utf-8">
 
@@ -100,24 +98,24 @@
 </head>
 <body>
 
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '835069987071292',
-      xfbml      : true,
-      version    : 'v9.0'
-    });
-    FB.AppEvents.logPageView();
-  };
+	<script>
+		window.fbAsyncInit = function() {
+			FB.init({
+				appId      : '835069987071292',
+				xfbml      : true,
+				version    : 'v9.0'
+			});
+			FB.AppEvents.logPageView();
+		};
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
+		(function(d, s, id){
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) {return;}
+			js = d.createElement(s); js.id = id;
+			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
 
 		<header>
 		<div class="center">
@@ -399,10 +397,7 @@
 			<p style="font-size: 20px;">Aviso: Este produto não garante a obtenção de resultados. Qualquer referência ao desempenho de uma estratégia não deve ser interpretada como uma garantia de resultados.</p><br>
 			<p>© Copyright 2020 | Todos os direitos reservados à Jhonata Ross | CNPJ: 35.376.952/0001-99 </p> <br/>
 		</div>
-		
-<button onclick='FB.AppEvents.logEvent("buttonClicked")'>
-  Click me
-</button>
+	
 	</footer>
 	<script src="jquery.js"></script>
 	<script>

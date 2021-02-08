@@ -146,6 +146,16 @@ section.main h4{color: #4a4a4a;font-weight: normal;}
 	background: #3fb737;
 }
 
+.segura {
+	max-width: 309px;
+	margin: 40px auto;
+	display: block;
+	padding: 15px 25px;
+	border-radius: 10px;
+	box-shadow: 0 12px 34px 0 rgb(0 0 0 / 15%);
+	background-color: #fafcff;
+}
+
 section.quem-sou{
 	padding: 30px 0;
 }
@@ -522,7 +532,7 @@ padding: 34px;
     background: #4dd544;
     color: white;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
     border-radius: 20px;
     box-shadow: 0px 0px 11px 2px rgba(255, 59, 0, 0.5);
